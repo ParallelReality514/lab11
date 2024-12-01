@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Інтерактивні посилання</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: url('https://i.ibb.co/SKSS7p7/bg.png') no-repeat center center fixed; /* Фон із посилання */
+            background-size: cover;
+            color: #ADFF2F; /* Установлює білий текст */
+            text-align: center; /* Центрує весь текст */
+        }
+        header {
+            background: #6200ea;
+            color: #fff;
+            padding: 1rem 0;
+        }
+        main {
+            padding: 2rem;
+        }
+        iframe {
+            border: 1px solid #ddd;
+            margin: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: block;
+            margin-left: auto; /* Центрує iframe */
+            margin-right: auto; /* Центрує iframe */
+        }
+        .link {
+            margin: 1.5rem 0;
+        }
+        .link a {
+            text-decoration: none;
+            color: #6200ea; /* Фіолетовий текст */
+            font-weight: bold;
+            padding: 0.5rem 1rem;
+            border: 1px solid #fff; /* Білий контур */
+            border-radius: 5px;
+            background-color: #fff; /* Фон білий */
+            display: inline-block; /* Центрує посилання */
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .link a:hover {
+            background-color: #fff;
+            color: #6200ea; /* Текст залишається фіолетовим при наведенні */
+        }
+        .image {
+            margin-top: 2rem;
+        }
+        .image img {
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-left: auto; /* Центрує зображення */
+            margin-right: auto; /* Центрує зображення */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Лабораторна робота №11</h1>
+    </header>
+    <main>
+        <section class="image">
+            <h2>Перше завдання</h2>
+            <img src="https://i.ibb.co/BLyMzTr/Screen-1.png" alt="Зображення" style="width: 80%; height: auto;">
+        </section>
+        <section>
+            <h2>Друге завдання</h2>
+            <div class="link">
+                <a href="http://linoit.com/users/Lavig/canvases/AI" target="_blank">Відкрити інтерактивну дошку</a>
+            </div>
+        </section>
+        <section>
+            <h2>Третє завдання</h2>
+            <iframe src="https://learningapps.org/watch?v=pq7zh5u6524" 
+                    style="width:80%; height:500px;" 
+                    allowfullscreen="true" 
+                    webkitallowfullscreen="true" 
+                    mozallowfullscreen="true">
+            </iframe>
+        </section>
+    </main>
+</body>
+</html>
